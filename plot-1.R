@@ -12,6 +12,6 @@ barplot(plot_1$Emissions,names.arg= plot_1$Year, main='US Total emissions from P
 #plot(plot_1$Year,plot_1$Emissions, main="Total US PM2.5 Emissions", "b", xlab="Year", ylab="Emissions (thousands of tons)",xaxt="n")
 #axis(side=1, at=c("1999", "2002", "2005", "2008"))
 
-dev.copy(png, file = "plot-1.png" ,width = 480, height = 480)  ## Copy my plot to a plot1.PNG file
+dev.copy(png, file = "plot-1.png" ,width = 480, height = 480)
 dev.off()
 
